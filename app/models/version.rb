@@ -22,6 +22,7 @@ class Version < ApplicationRecord
       ruby_version = first_div_post.search('p').first.text.strip.split[1]
       ruby_date = first_div_post.search('p').last.text.strip.split[4]
       result = [ruby_version, ruby_date]
+      puts result
     end
     return result
   end

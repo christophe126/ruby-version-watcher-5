@@ -8,7 +8,7 @@ class Version < ApplicationRecord
       csv << attributes
 
       all.each do |version|
-        csv << aversion.attributes.values_at(*attributes)
+        csv << version.attributes.values_at(*attributes)
       end
     end
   end

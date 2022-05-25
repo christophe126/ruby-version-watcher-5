@@ -14,6 +14,5 @@ class VersionsController < ApplicationController
       format.html
       format.csv { send_data @listes_versions.to_csv, filename: "version-#{Date.today}.csv" }
     end
-
   end
 end

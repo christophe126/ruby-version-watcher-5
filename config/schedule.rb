@@ -2,15 +2,14 @@
 #
 # It's helpful, but not entirely necessary to understand cron before proceeding.
 # http://en.wikipedia.org/wiki/Cron
-ENV['RAILS_ENV'] = "development"
+# env :PATH, ENV['PATH'] # or custom paths
+# job_type :rake,    "cd :path && :environment_variable=:environment bundle exec rake :task --silent :output"
 
-
-if ENV['RAILS_ENV'] == "development"
-  every 1.minute do
-    #runner "version.to_csv"
-    rake "example:say_hello", output: "config/schedule.log"
-  end
+every 1.minute do
+  #runner Version.check_new_version_ruby
+  rake "example:say_hello", output: "config/schedule.log", :environment => 'development'
 end
+
 
 # Example:
 #

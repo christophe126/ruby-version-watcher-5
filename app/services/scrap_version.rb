@@ -16,6 +16,6 @@ class ScrapVersion
 end
 
 
-p = ScrapVersion.new
-r = p.check_new_version_ruby
-p r
+# p = ScrapVersion.new
+# r = p.check_new_version_ruby
+# p r

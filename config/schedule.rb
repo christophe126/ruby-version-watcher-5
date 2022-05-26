@@ -1,32 +1,10 @@
-#!/usr/bin/env ruby
-# Use this file to easily define all of your cron jobs.
-#
-# It's helpful, but not entirely necessary to understand cron before proceeding.
-# http://en.wikipedia.org/wiki/Cron
-# env :PATH, ENV['PATH'] # or custom paths
-# job_type :rake,    "cd :path && :environment_variable=:environment bundle exec rake :task --silent :output"
+set :environment, 'development'
+env :PATH, ENV['PATH']
+set :output, "config/schedule.log"
+set :output, { :error => 'config/schedule_error.log', :standard => "config/schedule.log" }
+set :path, '/Users/christophe/code/christophe126/ruby-version-watcher-5'
 
+#every 1.day, at: '11:00 pm' do
 every 1.minute do
-  #runner Version.check_new_version_ruby
-  rake "example:say_hello", output: "config/schedule.log", :environment => 'development'
-  #runner "Version.check_new_version_ruby", :environment => 'development', output: "config/schedule.log"
-
+  runner "ScrapVersion.check_new_version_ruby", :output => '/Users/christophe/code/christophe126/ruby-version-watcher-5/config/schedule.log'
 end
-
-
-# Example:
-
-#
-# set :output, "/path/to/my/cron_log.log"
-#
-# every 2.hours do
-#   command "/usr/bin/some_great_command"
-#   runner "MyModel.some_method"
-#   rake "some:great:rake:task"
-# end
-#
-# every 4.days do
-#   runner "AnotherModel.prune_old_records"
-# end
-
-# Learn more: http://github.com/javan/whenever

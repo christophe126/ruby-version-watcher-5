@@ -1,54 +1,24 @@
-/Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/definition.rb:427:in `validate_ruby!': Your Ruby version is 2.6.3, but your Gemfile specified 3.1.2 (Bundler::RubyVersionMismatch)
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/definition.rb:402:in `validate_runtime!'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler.rb:145:in `setup'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/setup.rb:20:in `block in <top (required)>'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/ui/shell.rb:136:in `with_level'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/ui/shell.rb:88:in `silence'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/setup.rb:20:in `<top (required)>'
-	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require'
-	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require'
-/Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/definition.rb:427:in `validate_ruby!': Your Ruby version is 2.6.3, but your Gemfile specified 3.1.2 (Bundler::RubyVersionMismatch)
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/definition.rb:402:in `validate_runtime!'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler.rb:145:in `setup'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/setup.rb:20:in `block in <top (required)>'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/ui/shell.rb:136:in `with_level'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/ui/shell.rb:88:in `silence'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/setup.rb:20:in `<top (required)>'
-	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require'
-	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require'
-/Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/definition.rb:427:in `validate_ruby!': Your Ruby version is 2.6.3, but your Gemfile specified 3.1.2 (Bundler::RubyVersionMismatch)
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/definition.rb:402:in `validate_runtime!'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler.rb:145:in `setup'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/setup.rb:20:in `block in <top (required)>'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/ui/shell.rb:136:in `with_level'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/ui/shell.rb:88:in `silence'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/setup.rb:20:in `<top (required)>'
-	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require'
-	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require'
-/Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/definition.rb:427:in `validate_ruby!': Your Ruby version is 2.6.3, but your Gemfile specified 3.1.2 (Bundler::RubyVersionMismatch)
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/definition.rb:402:in `validate_runtime!'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler.rb:145:in `setup'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/setup.rb:20:in `block in <top (required)>'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/ui/shell.rb:136:in `with_level'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/ui/shell.rb:88:in `silence'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/setup.rb:20:in `<top (required)>'
-	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require'
-	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require'
-/Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/definition.rb:427:in `validate_ruby!': Your Ruby version is 2.6.3, but your Gemfile specified 3.1.2 (Bundler::RubyVersionMismatch)
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/definition.rb:402:in `validate_runtime!'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler.rb:145:in `setup'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/setup.rb:20:in `block in <top (required)>'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/ui/shell.rb:136:in `with_level'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/ui/shell.rb:88:in `silence'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/setup.rb:20:in `<top (required)>'
-	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require'
-	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require'
-/Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/definition.rb:427:in `validate_ruby!': Your Ruby version is 2.6.3, but your Gemfile specified 3.1.2 (Bundler::RubyVersionMismatch)
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/definition.rb:402:in `validate_runtime!'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler.rb:145:in `setup'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/setup.rb:20:in `block in <top (required)>'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/ui/shell.rb:136:in `with_level'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/ui/shell.rb:88:in `silence'
-	from /Users/christophe/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/bundler-2.3.14/lib/bundler/setup.rb:20:in `<top (required)>'
-	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require'
-	from /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+2022-05-26 : Version on Website 3.1.1 du 2022-02-18
+2022-05-26 : Version in Database 1.0.1 du 2022-01-01
+2022-05-26 : Save in Database 3.1.1 du 2022-02-18
+2022-05-26 : Mail sent Date: Thu, 26 May 2022 20:25:03 +0200
+From: christophe126@gmail.com
+To: mederic.mesle@gmail.com
+Message-ID: <628fc5ffd9ce4_93c3f28594c@imac-de-christophe-1.home.mail>
+Subject: Ruby Checker Version for Ouvrages by Christophe 126
+Mime-Version: 1.0
+Content-Type: text/plain;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+Welcome to : Ruby Checker Version Application by christophe126
+==============================================================
+New version Ruby 3.1.1 is release on 2022-02-18
+
+Thanks for joining and have a great day!
+
+-----------------------------------------------------------
+2022-05-26 : Version on Website 3.1.1 du 2022-02-18
+2022-05-26 : Version in Database 3.1.1 du 2022-02-18
+2022-05-26 : Pas de nouvelle version
+-----------------------------------------------------------

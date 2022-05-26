@@ -2,9 +2,6 @@ class VersionsController < ApplicationController
   def index
     @versions = Version.all
     @version_in_db = @versions.last
-    # call service
-    @check_version = ScrapVersion.new
-    @compare_version = @check_version.check_new_version_ruby
   end
 
   def export_csv()

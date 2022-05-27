@@ -1,5 +1,9 @@
 Welcome to : Ruby Checker Version Application by christophe126
 ==============================================================
-New version Ruby <%= @new_version.num_version %> is release on <%= @new_version.date_version %>
+<% if @new_version.new_version %>
+Une nouvelle version de Ruby <%= @new_version.num_version %> est disponible au <%= @new_version.date_version %>
+<% else %>
+Fin de support pour la version <%= @new_version.num_version %> au <%= @new_version.date_version %>
+<% end %>
 
 Thanks for joining and have a great day!

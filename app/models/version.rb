@@ -2,7 +2,7 @@ class Version < ApplicationRecord
 
 
   def self.to_csv
-    attributes = %w{num_version date_version}
+    attributes = %w{num_version date_version new_version support_version}
 
     CSV.generate(headers: true) do |csv|
       csv << attributes

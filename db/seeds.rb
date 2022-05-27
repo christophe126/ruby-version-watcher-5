@@ -8,5 +8,6 @@
 
 Version.destroy_all
 
-Version.create(num_version: "1.1.0", date_version: '2022-01-01')
+Version.create(num_version: "1.0.0", date_version: '2015-01-01', new_version: true, support_version: false)
+Version.create(num_version: "0.0.1", date_version: '2015-01-01', new_version: false, support_version: true)
 puts "Insert version 1.1.0 ok"

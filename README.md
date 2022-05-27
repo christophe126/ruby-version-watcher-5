@@ -21,3 +21,21 @@ Vous pouvez vous aider des gems suivantes :
 Nous pourrions dans un second temps améliorer l'application en réalisant une API pour que nos outils viennent
 directement demander les informations à cette application, ou être alerté par e-mail dès qu'une version
 est disponible ou en fin de support.
+
+---------------------------------------------------------------------------------
+Setup :
+1 - Lancer rails db:create db:migrate db:seed
+2 - Dans config / environnement / development.rb
+  :user_name => 'yourmail@gmail.com',
+  :password => ENV['GMAIL_PASS'], #password application
+  + verifier les autres paramétres, actuellement pour GMAIL
+
+3 (optionel) - Dans App/Service/scrap_version, il est possible de simuler modifier l'adresse https://www.ruby-lang.org/fr/news/ par https://www.ruby-lang.org/fr/news/2017, cela permet de tester avec une version en fin de support
+
+4 - Dans config/schedule.rb: modidifier le path avec le votre
++ modifier la frequence de scrap au besoin
+
+5 - Dans app / controller / maillers / mymail_mailer.rb
+Modifier l'adresse mail par la votre
+
+6 - Dans config/schedule.log: vider le fichier
